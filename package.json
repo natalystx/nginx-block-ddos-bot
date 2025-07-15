@@ -1,0 +1,17 @@
+{
+  "name": "test-nginx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "puppeteer": "node ./src/puppeteer.js",
+    "spam-fetch": "node ./src/fetch-spam.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^24.13.0",
+    "puppeteer-core": "^24.13.0"
+  }
+}
