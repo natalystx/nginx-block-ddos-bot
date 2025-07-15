@@ -1,7 +1,7 @@
 let iterations = 1000;
 
 while (iterations > 0) {
-  fetch("http://localhost:8080")
+  fetch("http://localhost:8080/register")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

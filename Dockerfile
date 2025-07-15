@@ -11,6 +11,8 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Copy a simple HTML file to serve as the website's content
 COPY index.html /usr/share/nginx/html/index.html
 
+COPY register.html /usr/share/nginx/html/register.html
+
 # Expose port 80 to the outside world
 EXPOSE 80
 
